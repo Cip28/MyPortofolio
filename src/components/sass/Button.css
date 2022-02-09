@@ -1,0 +1,87 @@
+button {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  padding: 1rem 0rem;
+  border-radius: 5px;
+  background-color: #dbd8d8;
+  color: #646262;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ece9e6), color-stop(51%, #ffffff), to(#ece9e6));
+  background-image: linear-gradient(to right, #ece9e6 0%, #ffffff 51%, #ece9e6 100%);
+  color: #000;
+  padding: 1rem 3rem;
+  width: 200px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 0 20px #eee;
+          box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.33);
+          box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.33);
+}
+
+.header:hover {
+  background-position: right center;
+  color: #838080;
+  text-decoration: none;
+}
+
+.projects {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1976d2;
+  -webkit-box-shadow: 0px 2px 14px -5px black;
+          box-shadow: 0px 2px 14px -5px black;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.projects:hover {
+  background-color: #3987d4;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.contact {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  padding: 1rem 3rem;
+  border-radius: 2px;
+  border: none;
+  color: #000;
+  font-weight: 700;
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.contact:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+/*# sourceMappingURL=Button.css.map */

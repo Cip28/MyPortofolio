@@ -1,0 +1,153 @@
+@import 'Variables.scss'; 
+
+body{
+  font-family: $font!important;
+}
+
+
+
+
+main{
+  // height:100vh;
+  background-color: rgba(216, 215, 215, 0.295);
+  padding:2rem 2rem;
+  
+  .main--top{
+      text-align: center;
+      h1{
+          font-size:2rem;
+          letter-spacing: 2px;
+          padding-top:3rem;
+          padding-bottom:1.2rem;
+          text-transform: uppercase;
+      }
+      .decorative{
+          width:25px;
+          margin:0 auto;
+          border-radius:10px;
+          text-align: center;
+          height:5px;
+          background-color:#1976d2;
+      }
+      p{
+          color:rgba(129, 127, 127, 0.932);
+          padding:1.5rem 0rem;
+      }
+  }
+  .main--mid{
+      display:flex;
+      flex-direction:column;
+      justify-content: space-around;
+      text-align: left;      
+      article{
+          h3{
+              padding-bottom:1.5rem;
+              font-size:1.3rem;
+          }
+          p{     
+              line-height:1.7;
+              font-size:1rem;           
+              color:$textColor;
+              font-weight:300;
+              span{
+                  color:rgb(80, 76, 76);
+                  font-weight:700;
+              }
+          }
+          .skills--card{
+              display:grid;
+              grid-gap:1rem;
+              grid-template-columns: repeat(auto-fill, 80px);
+              
+              font-size:.8rem!important;
+          }
+      }
+  }
+  .flex-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }      
+    .social-links {
+      display: flex;
+      margin:1rem 0rem 2rem;
+  }
+    
+    .social-btn {
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      font-family: 'Titillium Web', sans-serif;
+      color: #333;
+      border-radius: 10px;
+      box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+      background: white;
+      margin: 5px;
+      transition: 1s;
+    }
+    
+    .social-btn span {
+      width: 0px;
+      overflow: hidden;
+      transition: 1s;
+      text-align: center;
+    }
+    
+    .social-btn:hover {
+      width: 250px;
+      border-radius: 5px;
+    }
+    
+    .social-btn:hover span {
+      padding: 2px;
+      width: max-content;
+    }
+    #gmail {
+      padding:10px;
+    }      
+    #linkedin svg {
+      fill: #0e76a8;
+    }
+    
+    #github {
+      fill: #333;
+    }
+}
+
+
+
+
+@media only screen and (min-width:767px){
+main{
+    padding:2rem 11rem;    
+    .main--top{
+        text-align: center;
+        h1{
+            font-size:3rem;
+        }    
+        p{
+            padding:1.5rem 4rem 3.5rem;
+        }
+    }
+    .main--mid{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;        
+        article{
+            width:50%;        
+            margin-right:2rem;    
+            h3{
+                font-size:1.5rem;
+            }
+            p{     
+                font-size:1.1rem;
+            }
+            .skills--card{
+                grid-template-columns: repeat(auto-fill, 100px);
+            }
+        }
+    }
+}
+}
+
