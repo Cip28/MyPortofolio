@@ -18,15 +18,35 @@ const data = {
         },
         {
             id: 5,
-            skill:'Javascript'
+            skill:'JavaScript'
         },
         {
             id: 6,
-            skill:'React'
+            skill:'TypeScript'
         },
         {
             id: 7,
-            skill:'GIT'
+            skill:'React'
+        },
+        {
+            id: 8,
+            skill:'Unity'
+        },
+        {
+            id: 9,
+            skill:'Blender'
+        },
+        {
+            id: 10,
+            skill:'Mixed Reality Extension'
+        },
+        {
+            id: 11,
+            skill:'Azure'
+        },
+        {
+            id: 12,
+            skill:'AltspaceVR'
         },
     
     ]

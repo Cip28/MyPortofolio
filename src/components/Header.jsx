@@ -10,7 +10,7 @@ const Header = () => {
       <section>
         <h1>HEY, MY NAME IS CIPRIAN BARBU</h1>
         <p>
-          I'm a 2nd year student in Economical Cybernetics at the Academy of
+          I'm a 3rd year student in Economical Cybernetics at the Academy of
           Economical Studies
         </p> 
         <a href="#projects">

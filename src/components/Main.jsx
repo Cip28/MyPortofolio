@@ -10,7 +10,7 @@ const Main = () => {
       <section className="main--top">
         <h1>About me</h1>
         <div className="decorative"></div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        <p>Here are some things about myself </p>
       </section>
       <section className="main--mid">
         <article>
