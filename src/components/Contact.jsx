@@ -22,7 +22,7 @@ const Contact = () => {
                 <div className="text">
                     <h1>CONTACT</h1>
                     <div className='decorative'></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae odit inventore assumenda. Reprehenderit incidunt perferendis fugit saepe, temporibus quasi nihil fuga. Ipsam hic, harum aut tenetur veniam eligendi autem nostrum!</p>
+                    <p>Let's discuss for a possible future collaboration! </p>
                     <form action="mailto:ciprianbarbu38@yahoo.com" onSubmit={handleSubmit(onSubmit)}>
                         <label>Name  </label>
                             <br />

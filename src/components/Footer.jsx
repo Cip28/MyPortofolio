@@ -11,7 +11,7 @@ export default function Footer (){
                     <h2>Social</h2>
                 </article>
                 <article className='footer-mid'>
-                    <p>21 years old student in Cybernetics</p>
+                    <p>22 years old graduate of Economic Cybernetics</p>
                     <div className='social-icons'>
                         <a href='https://github.com/Cip28'><i className="fab fa-github"></i></a>
                         <a href='https://linkedin.com/in/ciprian-barbu-7bbbb820a'><i className="fab fa-linkedin"></i></a>

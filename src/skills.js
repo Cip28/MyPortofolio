@@ -42,11 +42,23 @@ const data = {
         },
         {
             id: 11,
-            skill:'Azure'
+            skill:'Photon'
         },
         {
             id: 12,
-            skill:'AltspaceVR'
+            skill:'Azure'
+        },
+        {
+            id: 13,
+            skill:'C#'
+        },
+        {
+            id: 14,
+            skill:'GenerativeAI'
+        },
+        {
+            id: 15,
+            skill:'Python'
         },
     
     ]

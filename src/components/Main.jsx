@@ -10,7 +10,7 @@ const Main = () => {
       <section className="main--top">
         <h1>About me</h1>
         <div className="decorative"></div>
-        <p>Here are some things about myself </p>
+        <p>Let me introduce myself :) </p>
       </section>
       <section className="main--mid">
         <article>
@@ -18,17 +18,15 @@ const Main = () => {
           <p>
             Hey! My name is <span>Ciprian Barbu</span> and I'm a{" "}
             <span>Junior Frontend Developer</span> located in Bucharest. Since
-            August 2021, I am working at Accenture as an{" "}
-            <span>Application Development Associate</span>, permanently learning
-            new things about how the Web works.{" "}
+            August 2021, I am working at Accenture where I continuously immerse myself in the ever-evolving world of web development technologies.{" "}
           </p>
           <br />
           <p>
-            I love to create new layouts, animations and various visual effects
-            in order to make a website more attractive.
+          Throughout my journey, I've had the privilege of contributing to numerous projects, which has allowed me to expand my expertise into areas like VR Game Development and Generative AI.
           </p>
+          <br />
           <p>
-            My goal is to master the Web Technologies. If you are willing to
+          My overarching aspiration is to venture deeper into the realms of the tech industry, steadily progressing towards the status of a seasoned developer with extensive experience. If you are willing to
             collaborate, feel free to <span>contact</span> me.
           </p>
 
